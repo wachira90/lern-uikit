@@ -13,7 +13,10 @@
 <body>
 
 
-    <!-- <nav class="uk-navbar-container" uk-navbar>
+
+    <div class="uk-container uk-container-large">
+
+        <!-- <nav class="uk-navbar-container" uk-navbar>
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
                 <li class="uk-active"><a href="#">Active</a></li>
@@ -33,7 +36,7 @@
     </nav> -->
 
 
-    <!-- <nav class="uk-navbar-container" uk-navbar>
+        <!-- <nav class="uk-navbar-container" uk-navbar>
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
                 <li class="uk-active"><a href="#">Active</a></li>
@@ -70,40 +73,40 @@
 
 
 
-    <nav class="uk-navbar-container uk-margin" uk-navbar>
-        <div class="uk-navbar-left">
+        <nav class="uk-navbar-container uk-margin" uk-navbar>
+            <div class="uk-navbar-left">
 
-            <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+                <a class="uk-navbar-item uk-logo" href="#">Logo</a>
 
-            <ul class="uk-navbar-nav">
-                <li>
-                    <a href="#">
-                        <span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>
-                        Features
-                    </a>
-                </li>
-            </ul>
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <a href="#">
+                            <span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>
+                            Features
+                        </a>
+                    </li>
+                </ul>
 
-            <div class="uk-navbar-item">
-                <div>Some <a href="#">Link</a></div>
+                <div class="uk-navbar-item">
+                    <div>Some <a href="#">Link</a></div>
+                </div>
+
+                <div class="uk-navbar-item">
+                    <form action="javascript:void(0)">
+                        <input class="uk-input uk-form-width-small" type="text" placeholder="Input">
+                        <button class="uk-button uk-button-default">Button</button>
+                    </form>
+                </div>
+
             </div>
-
-            <div class="uk-navbar-item">
-                <form action="javascript:void(0)">
-                    <input class="uk-input uk-form-width-small" type="text" placeholder="Input">
-                    <button class="uk-button uk-button-default">Button</button>
-                </form>
-            </div>
-
-        </div>
-    </nav>
+        </nav>
 
 
 
 
-    <!-- center logo -->
+        <!-- center logo -->
 
-    <!-- <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <!-- <nav class="uk-navbar-container uk-margin" uk-navbar>
     <div class="uk-navbar-center">
         <div class="uk-navbar-center-left"><div>
             <ul class="uk-navbar-nav">
@@ -132,880 +135,912 @@
 
 
 
-    <h1>UIKIT 3.11.1</h1>
+        <h1>UIKIT 3.11.1</h1>
 
-    <!-- Component usage -->
-    <!-- <div uk-sticky="offset: 50;"></div> <div data-uk-sticky="offset: 50;"></div> -->
+        <!-- Component usage -->
+        <!-- <div uk-sticky="offset: 50;"></div> <div data-uk-sticky="offset: 50;"></div> -->
 
-    <hr>
+        <hr>
 
-    <a class="uk-button uk-button-default" href=""></a>
-    <button class="uk-button uk-button-default"></button>
-    <button class="uk-button uk-button-default" disabled></button>
+        <a class="uk-button uk-button-default" href=""></a>
+        <button class="uk-button uk-button-default"></button>
+        <button class="uk-button uk-button-default" disabled></button>
 
-    <hr>
+        <hr>
 
-    <div uk-lightbox>
-        <a class="uk-button uk-button-default" href="images/photo.jpg">Open Lightbox</a>
-    </div>
+        <div uk-lightbox>
+            <a class="uk-button uk-button-default" href="images/photo.jpg">Open Lightbox</a>
+        </div>
 
-    <hr>
+        <hr>
 
-    <form>
-        <fieldset class="uk-fieldset">
+        <form>
+            <fieldset class="uk-fieldset">
 
-            <legend class="uk-legend">Legend</legend>
+                <legend class="uk-legend">Legend</legend>
+
+                <div class="uk-margin">
+                    <input class="uk-input" type="text" placeholder="Input">
+                </div>
+
+                <div class="uk-margin">
+                    <select class="uk-select">
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                    </select>
+                </div>
+
+                <div class="uk-margin">
+                    <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+                </div>
+
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label><input class="uk-radio" type="radio" name="radio2" checked> A</label>
+                    <label><input class="uk-radio" type="radio" name="radio2"> B</label>
+                </div>
+
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label><input class="uk-checkbox" type="checkbox" checked> A</label>
+                    <label><input class="uk-checkbox" type="checkbox"> B</label>
+                </div>
+
+                <div class="uk-margin">
+                    <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+                </div>
+
+            </fieldset>
+        </form>
+
+
+        <hr>
+
+        <div class="uk-margin">
+            <input class="uk-input uk-form-danger uk-form-width-medium" type="text" placeholder="form-danger"
+                value="form-danger">
+        </div>
+
+        <div class="uk-margin">
+            <input class="uk-input uk-form-success uk-form-width-medium" type="text" placeholder="form-success"
+                value="form-success">
+        </div>
+
+        <div class="uk-margin">
+            <input class="uk-input uk-form-width-medium" type="text" placeholder="disabled" value="disabled" disabled>
+        </div>
+
+        <hr>
+        <form>
 
             <div class="uk-margin">
-                <input class="uk-input" type="text" placeholder="Input">
+                <input class="uk-input uk-form-width-medium uk-form-large" type="text" placeholder="Large">
             </div>
 
             <div class="uk-margin">
-                <select class="uk-select">
-                    <option>Option 01</option>
-                    <option>Option 02</option>
-                </select>
+                <input class="uk-input uk-form-width-medium" type="text" placeholder="Default">
             </div>
 
             <div class="uk-margin">
-                <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+                <input class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="Small">
             </div>
 
-            <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                <label><input class="uk-radio" type="radio" name="radio2" checked> A</label>
-                <label><input class="uk-radio" type="radio" name="radio2"> B</label>
-            </div>
+        </form>
 
-            <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                <label><input class="uk-checkbox" type="checkbox" checked> A</label>
-                <label><input class="uk-checkbox" type="checkbox"> B</label>
+
+        <hr>
+
+
+        <form>
+
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-large" type="text" placeholder="Large">
             </div>
 
             <div class="uk-margin">
-                <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+                <input class="uk-input uk-form-width-medium" type="text" placeholder="Medium">
             </div>
 
-        </fieldset>
-    </form>
-
-
-    <hr>
-
-    <div class="uk-margin">
-        <input class="uk-input uk-form-danger uk-form-width-medium" type="text" placeholder="form-danger"
-            value="form-danger">
-    </div>
-
-    <div class="uk-margin">
-        <input class="uk-input uk-form-success uk-form-width-medium" type="text" placeholder="form-success"
-            value="form-success">
-    </div>
-
-    <div class="uk-margin">
-        <input class="uk-input uk-form-width-medium" type="text" placeholder="disabled" value="disabled" disabled>
-    </div>
-
-    <hr>
-    <form>
-
-        <div class="uk-margin">
-            <input class="uk-input uk-form-width-medium uk-form-large" type="text" placeholder="Large">
-        </div>
-
-        <div class="uk-margin">
-            <input class="uk-input uk-form-width-medium" type="text" placeholder="Default">
-        </div>
-
-        <div class="uk-margin">
-            <input class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="Small">
-        </div>
-
-    </form>
-
-
-    <hr>
-
-
-    <form>
-
-        <div class="uk-margin">
-            <input class="uk-input uk-form-width-large" type="text" placeholder="Large">
-        </div>
-
-        <div class="uk-margin">
-            <input class="uk-input uk-form-width-medium" type="text" placeholder="Medium">
-        </div>
-
-        <div class="uk-margin">
-            <input class="uk-input uk-form-width-small" type="text" placeholder="Small">
-        </div>
-
-        <div class="uk-margin">
-            <input class="uk-input uk-form-width-xsmall" type="text" placeholder="X-Small">
-        </div>
-
-    </form>
-    <hr>
-
-    <form>
-        <input class="uk-input uk-width-1-2" type="text" placeholder="uk-width-1-2">
-    </form>
-
-    <hr>
-    <form class="uk-form-stacked">
-
-        <div class="uk-margin">
-            <label class="uk-form-label" for="form-stacked-text">Text</label>
-            <div class="uk-form-controls">
-                <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-small" type="text" placeholder="Small">
             </div>
-        </div>
 
-        <div class="uk-margin">
-            <label class="uk-form-label" for="form-stacked-select">Select</label>
-            <div class="uk-form-controls">
-                <select class="uk-select" id="form-stacked-select">
-                    <option>Option 01</option>
-                    <option>Option 02</option>
-                </select>
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-xsmall" type="text" placeholder="X-Small">
             </div>
-        </div>
 
-        <div class="uk-margin">
-            <div class="uk-form-label">Radio</div>
-            <div class="uk-form-controls">
-                <label><input class="uk-radio" type="radio" name="radio1"> Option 01</label><br>
-                <label><input class="uk-radio" type="radio" name="radio1"> Option 02</label>
+        </form>
+        <hr>
+
+        <form>
+            <input class="uk-input uk-width-1-2" type="text" placeholder="uk-width-1-2">
+        </form>
+
+        <hr>
+        <form class="uk-form-stacked">
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-stacked-text">Text</label>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+                </div>
             </div>
-        </div>
 
-    </form>
-
-    <hr>
-
-
-    <form class="uk-form-horizontal uk-margin-large">
-
-        <div class="uk-margin">
-            <label class="uk-form-label" for="form-horizontal-text">Text</label>
-            <div class="uk-form-controls">
-                <input class="uk-input" id="form-horizontal-text" type="text" placeholder="Some text...">
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-stacked-select">Select</label>
+                <div class="uk-form-controls">
+                    <select class="uk-select" id="form-stacked-select">
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                    </select>
+                </div>
             </div>
-        </div>
 
-        <div class="uk-margin">
-            <label class="uk-form-label" for="form-horizontal-select">Select</label>
-            <div class="uk-form-controls">
-                <select class="uk-select" id="form-horizontal-select">
-                    <option>Option 01</option>
-                    <option>Option 02</option>
-                </select>
+            <div class="uk-margin">
+                <div class="uk-form-label">Radio</div>
+                <div class="uk-form-controls">
+                    <label><input class="uk-radio" type="radio" name="radio1"> Option 01</label><br>
+                    <label><input class="uk-radio" type="radio" name="radio1"> Option 02</label>
+                </div>
             </div>
-        </div>
 
-        <div class="uk-margin">
-            <div class="uk-form-label">Radio</div>
-            <div class="uk-form-controls uk-form-controls-text">
-                <label><input class="uk-radio" type="radio" name="radio1"> Option 01</label><br>
-                <label><input class="uk-radio" type="radio" name="radio1"> Option 02</label>
+        </form>
+
+        <hr>
+
+
+        <form class="uk-form-horizontal uk-margin-large">
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-text">Text</label>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="form-horizontal-text" type="text" placeholder="Some text...">
+                </div>
             </div>
-        </div>
 
-    </form>
-
-    <hr>
-
-    <form>
-
-        <div class="uk-margin">
-            <div class="uk-inline">
-                <span class="uk-form-icon" uk-icon="icon: user"></span>
-                <input class="uk-input" type="text">
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-select">Select</label>
+                <div class="uk-form-controls">
+                    <select class="uk-select" id="form-horizontal-select">
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                    </select>
+                </div>
             </div>
-        </div>
 
-        <div class="uk-margin">
-            <div class="uk-inline">
-                <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
-                <input class="uk-input" type="text">
+            <div class="uk-margin">
+                <div class="uk-form-label">Radio</div>
+                <div class="uk-form-controls uk-form-controls-text">
+                    <label><input class="uk-radio" type="radio" name="radio1"> Option 01</label><br>
+                    <label><input class="uk-radio" type="radio" name="radio1"> Option 02</label>
+                </div>
             </div>
-        </div>
 
-    </form>
+        </form>
 
-    <hr>
+        <hr>
 
-    <!-- Clickable icons -->
-    <form>
+        <form>
 
-        <div class="uk-margin">
-            <div class="uk-inline">
-                <a class="uk-form-icon" href="#" uk-icon="icon: pencil"></a>
-                <input class="uk-input" type="text">
+            <div class="uk-margin">
+                <div class="uk-inline">
+                    <span class="uk-form-icon" uk-icon="icon: user"></span>
+                    <input class="uk-input" type="text">
+                </div>
             </div>
-        </div>
 
-        <div class="uk-margin">
-            <div class="uk-inline">
-                <a class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: link"></a>
-                <input class="uk-input" type="text">
+            <div class="uk-margin">
+                <div class="uk-inline">
+                    <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                    <input class="uk-input" type="text">
+                </div>
             </div>
-        </div>
 
-    </form>
+        </form>
 
-    <hr>
+        <hr>
 
-    <!-- Form and grid -->
-    <form class="uk-grid-small" uk-grid>
-        <div class="uk-width-1-1">
-            <input class="uk-input" type="text" placeholder="100">
-        </div>
-        <div class="uk-width-1-2@s">
-            <input class="uk-input" type="text" placeholder="50">
-        </div>
-        <div class="uk-width-1-4@s">
-            <input class="uk-input" type="text" placeholder="25">
-        </div>
-        <div class="uk-width-1-4@s">
-            <input class="uk-input" type="text" placeholder="25">
-        </div>
-        <div class="uk-width-1-2@s">
-            <input class="uk-input" type="text" placeholder="50">
-        </div>
-        <div class="uk-width-1-2@s">
-            <input class="uk-input" type="text" placeholder="50">
-        </div>
-    </form>
+        <!-- Clickable icons -->
+        <form>
 
-    <hr>
-
-    <!-- Custom controls -->
-    <form>
-
-        <div class="uk-margin">
-            <div uk-form-custom>
-                <input type="file">
-                <button class="uk-button uk-button-default" type="button" tabindex="-1">Select</button>
+            <div class="uk-margin">
+                <div class="uk-inline">
+                    <a class="uk-form-icon" href="#" uk-icon="icon: pencil"></a>
+                    <input class="uk-input" type="text">
+                </div>
             </div>
-        </div>
 
-        <div class="uk-margin">
-            <span class="uk-text-middle">Here is a text</span>
-            <div uk-form-custom>
-                <input type="file">
-                <span class="uk-link">upload</span>
+            <div class="uk-margin">
+                <div class="uk-inline">
+                    <a class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: link"></a>
+                    <input class="uk-input" type="text">
+                </div>
             </div>
-        </div>
 
-        <div class="uk-margin" uk-margin>
-            <div uk-form-custom="target: true">
-                <input type="file">
-                <input class="uk-input uk-form-width-medium" type="text" placeholder="Select file" disabled>
+        </form>
+
+        <hr>
+
+        <!-- Form and grid -->
+        <form class="uk-grid-small" uk-grid>
+            <div class="uk-width-1-1">
+                <input class="uk-input" type="text" placeholder="100">
             </div>
-            <button class="uk-button uk-button-default">Submit</button>
-        </div>
-
-    </form>
-
-
-    <hr>
-
-    <!-- Select -->
-    <form>
-
-        <div class="uk-margin">
-            <div uk-form-custom="target: true">
-                <select>
-                    <option value="1">Option 01</option>
-                    <option value="2">Option 02</option>
-                    <option value="3">Option 03</option>
-                    <option value="4">Option 04</option>
-                </select>
-                <span></span>
+            <div class="uk-width-1-2@s">
+                <input class="uk-input" type="text" placeholder="50">
             </div>
-        </div>
+            <div class="uk-width-1-4@s">
+                <input class="uk-input" type="text" placeholder="25">
+            </div>
+            <div class="uk-width-1-4@s">
+                <input class="uk-input" type="text" placeholder="25">
+            </div>
+            <div class="uk-width-1-2@s">
+                <input class="uk-input" type="text" placeholder="50">
+            </div>
+            <div class="uk-width-1-2@s">
+                <input class="uk-input" type="text" placeholder="50">
+            </div>
+        </form>
 
-        <div class="uk-margin">
-            <div uk-form-custom="target: > * > span:last-child">
-                <select>
-                    <option value="1">Option 01</option>
-                    <option value="2">Option 02</option>
-                    <option value="3">Option 03</option>
-                    <option value="4">Option 04</option>
-                </select>
-                <span class="uk-link">
-                    <span uk-icon="icon: pencil"></span>
+        <hr>
+
+        <!-- Custom controls -->
+        <form>
+
+            <div class="uk-margin">
+                <div uk-form-custom>
+                    <input type="file">
+                    <button class="uk-button uk-button-default" type="button" tabindex="-1">Select</button>
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <span class="uk-text-middle">Here is a text</span>
+                <div uk-form-custom>
+                    <input type="file">
+                    <span class="uk-link">upload</span>
+                </div>
+            </div>
+
+            <div class="uk-margin" uk-margin>
+                <div uk-form-custom="target: true">
+                    <input type="file">
+                    <input class="uk-input uk-form-width-medium" type="text" placeholder="Select file" disabled>
+                </div>
+                <button class="uk-button uk-button-default">Submit</button>
+            </div>
+
+        </form>
+
+
+        <hr>
+
+        <!-- Select -->
+        <form>
+
+            <div class="uk-margin">
+                <div uk-form-custom="target: true">
+                    <select>
+                        <option value="1">Option 01</option>
+                        <option value="2">Option 02</option>
+                        <option value="3">Option 03</option>
+                        <option value="4">Option 04</option>
+                    </select>
                     <span></span>
-                </span>
-            </div>
-        </div>
-
-        <div class="uk-margin">
-            <div uk-form-custom="target: > * > span:first-child">
-                <select>
-                    <option value="">Please select...</option>
-                    <option value="1">Option 01</option>
-                    <option value="2">Option 02</option>
-                    <option value="3">Option 03</option>
-                    <option value="4">Option 04</option>
-                </select>
-                <button class="uk-button uk-button-default" type="button" tabindex="-1">
-                    <span></span>
-                    <span uk-icon="icon: chevron-down"></span>
-                </button>
-            </div>
-        </div>
-
-    </form>
-
-    <hr>
-    <!-- Modal -->
-
-    <!-- This is a button toggling the modal -->
-    <button class="uk-button uk-button-default uk-margin-small-right" type="button"
-        uk-toggle="target: #modal-example">Open</button>
-
-    <!-- This is an anchor toggling the modal -->
-    <a href="#modal-example" uk-toggle>Open</a>
-
-    <!-- This is the modal -->
-    <div id="modal-example" uk-modal>
-        <div class="uk-modal-dialog uk-modal-body">
-            <h2 class="uk-modal-title">Headline</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-            <p class="uk-text-right">
-                <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
-                <button class="uk-button uk-button-primary" type="button">Save</button>
-            </p>
-        </div>
-    </div>
-
-
-
-    <hr>
-
-
-    <div uk-lightbox>
-        <a class="uk-button" href="video.mp4" data-poster="image.jpg"></a>
-        <a class="uk-button" href="https://www.youtube.com/watch?v=c2pz2mlSfXA"></a>
-        <a class="uk-button" href="https://vimeo.com/1084537"></a>
-        <a class="uk-button" href="https://www.google.com/maps"></a>
-    </div>
-
-    <hr>
-
-    <ul uk-accordion>
-        <li class="uk-open">
-            <a class="uk-accordion-title" href="#">Item 1</a>
-            <div class="uk-accordion-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et dolore magna aliqua.</p>
-            </div>
-        </li>
-        <li>
-            <a class="uk-accordion-title" href="#">Item 2</a>
-            <div class="uk-accordion-content">
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor reprehenderit.</p>
-            </div>
-        </li>
-        <li>
-            <a class="uk-accordion-title" href="#">Item 3</a>
-            <div class="uk-accordion-content">
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat proident.</p>
-            </div>
-        </li>
-    </ul>
-
-
-    <hr>
-
-    <button class="demo uk-button uk-button-default" type="button"
-        onclick="UIkit.notification({message: 'Notification message'})">Click me</button>
-
-
-    <hr>
-
-    <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-    </div>
-
-    <div class="uk-grid-medium uk-child-width-expand@s uk-text-center" uk-grid>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-    </div>
-
-    <div class="uk-grid-large uk-child-width-expand@s uk-text-center" uk-grid>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-    </div>
-
-    <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center uk-margin-large-top" uk-grid>
-        <div>
-            <div class="uk-background-muted uk-padding">Item</div>
-        </div>
-        <div>
-            <div class="uk-background-primary uk-padding uk-light">Item</div>
-        </div>
-        <div>
-            <div class="uk-background-secondary uk-padding uk-light">Item</div>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="uk-grid-small uk-child-width-1-4@s uk-flex-center uk-text-center" uk-grid>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item 1</div>
-        </div>
-        <div class="uk-flex-last">
-            <div class="uk-card uk-card-secondary uk-card-body">Item 2</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item 3</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item 4</div>
-        </div>
-        <div class="uk-flex-first">
-            <div class="uk-card uk-card-primary uk-card-body">Item 5</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item 6</div>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-text-center" uk-grid="parallax: 150">
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Item</div>
-        </div>
-    </div>
-
-    <hr>
-    <h1 class="uk-heading-small">Small</h1>
-    <h1 class="uk-heading-medium">Medium</h1>
-    <h1 class="uk-heading-large">Large</h1>
-    <h1 class="uk-heading-xlarge">X-Large</h1>
-    <h1 class="uk-heading-2xlarge">2X-Large</h1>
-    <hr>
-    <h1 class="uk-heading-divider">Heading Divider</h1>
-    <hr>
-    <h1 class="uk-heading-bullet">Heading Bullet</h1>
-    <hr>
-    <h1 class="uk-heading-line"><span>Heading Line</span></h1>
-    <h1 class="uk-heading-line uk-text-center"><span>Heading Line</span></h1>
-    <h1 class="uk-heading-line uk-text-right"><span>Heading Line</span></h1>
-    <hr>
-    <div class="uk-child-width-1-2@s" uk-grid uk-height-match="target: > div > .uk-card; row: false">
-        <div class="uk-first-column">
-            <div class="uk-card uk-card-default uk-card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">Lorem Ipsum</div>
-        </div>
-        <div class="uk-grid-margin uk-first-column">
-            <div class="uk-card uk-card-default uk-card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </div>
-        </div>
-        <div class="uk-grid-margin">
-            <div class="uk-card uk-card-default uk-card-body">Lorem Ipsum</div>
-        </div>
-    </div>
-    <hr>
-    <span class="uk-margin-small-right" uk-icon="check"></span>
-    <a href="" uk-icon="heart"></a>
-    <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="copy"></a>
-    <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="file-edit"></a>
-    <a href="#" class="uk-icon-link" uk-icon="trash"></a>
-
-    <hr>
-    <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
-    <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
-    <a href="" class="uk-icon-button" uk-icon="youtube"></a>
-    <hr>
-    <div class="uk-child-width-expand@s" uk-grid>
-
-        <div>
-            <h4>Disc</h4>
-            <ul class="uk-list uk-list-disc">
-                <li>List item 1</li>
-                <li>List item 2</li>
-                <li>List item 3</li>
-            </ul>
-        </div>
-
-        <div>
-            <h4>Circle</h4>
-            <ul class="uk-list uk-list-circle">
-                <li>List item 1</li>
-                <li>List item 2</li>
-                <li>List item 3</li>
-            </ul>
-        </div>
-
-        <div>
-            <h4>Square</h4>
-            <ul class="uk-list uk-list-square">
-                <li>List item 1</li>
-                <li>List item 2</li>
-                <li>List item 3</li>
-            </ul>
-        </div>
-
-        <div>
-            <h4>Decimal</h4>
-            <ul class="uk-list uk-list-decimal">
-                <li>List item 1</li>
-                <li>List item 2</li>
-                <li>List item 3</li>
-            </ul>
-        </div>
-
-        <div>
-            <h4>Hyphen</h4>
-            <ul class="uk-list uk-list-hyphen">
-                <li>List item 1</li>
-                <li>List item 2</li>
-                <li>List item 3</li>
-            </ul>
-        </div>
-
-    </div>
-    <hr>
-    <ul class="uk-subnav uk-subnav-pill" uk-switcher>
-        <li><a href="#">Item</a></li>
-        <li><a href="#">Item</a></li>
-        <li><a href="#">Item</a></li>
-    </ul>
-
-    <ul class="uk-switcher uk-margin">
-        <li>Hello!</li>
-        <li>Hello again!</li>
-        <li>Bazinga!</li>
-    </ul>
-    <hr>
-    <ul class="uk-switcher uk-margin">
-        <li><a href="#" uk-switcher-item="0"></a></li>
-        <li><a href="#" uk-switcher-item="1"></a></li>
-        <li><a href="#" uk-switcher-item="next"></a></li>
-        <li><a href="#" uk-switcher-item="previous"></a></li>
-    </ul>
-    <hr>
-
-    <ul class="uk-subnav uk-subnav-pill" uk-switcher="animation: uk-animation-fade">
-        <li><a href="#">Item</a></li>
-        <li><a href="#">Item</a></li>
-        <li><a href="#">Item</a></li>
-    </ul>
-
-    <ul class="uk-switcher uk-margin">
-        <li>Hello!</li>
-        <li>Hello again!</li>
-        <li>Bazinga!</li>
-    </ul>
-
-    <hr>
-    <!-- //DRAG & DROP UPLOAD  WITH JS-->
-    <div class="js-upload uk-placeholder uk-text-center">
-        <span uk-icon="icon: cloud-upload"></span>
-        <span class="uk-text-middle">Attach binaries by dropping them here or</span>
-        <div uk-form-custom>
-            <input type="file" multiple>
-            <span class="uk-link">selecting one</span>
-        </div>
-    </div>
-
-    <progress id="js-progressbar" class="uk-progress" value="0" max="100" hidden></progress>
-
-    <script>
-    </script>
-
-    <hr>
-
-    <div class="uk-alert-primary" uk-alert>
-        <a class="uk-alert-close" uk-close></a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-    </div>
-
-    <div class="uk-alert-success" uk-alert>
-        <a class="uk-alert-close" uk-close></a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-    </div>
-
-    <div class="uk-alert-warning" uk-alert>
-        <a class="uk-alert-close" uk-close></a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-    </div>
-
-    <div class="uk-alert-danger" uk-alert>
-        <a class="uk-alert-close" uk-close></a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-    </div>
-
-    <hr>
-    <!-- badge -->
-    <span class="uk-badge">1</span>
-    <span class="uk-badge">100</span>
-
-    <hr>
-    <!-- card1 -->
-    <div class="uk-child-width-1-2@m" uk-grid>
-        <div>
-            <div class="uk-card uk-card-default">
-                <div class="uk-card-media-top">
-                    <img src="https://getuikit.com/docs/images/light.jpg" alt="">
-                </div>
-                <div class="uk-card-body">
-                    <h3 class="uk-card-title">Media Top</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                 </div>
             </div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default">
-                <div class="uk-card-body">
-                    <h3 class="uk-card-title">Media Bottom</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                </div>
-                <div class="uk-card-media-bottom">
-                    <img src="https://getuikit.com/docs/images/light.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
 
-
-    <hr>
-    <!-- card1 -->
-
-    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-        <div class="uk-card-media-left uk-cover-container">
-            <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
-            <canvas width="600" height="400"></canvas>
-        </div>
-        <div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">Media Left</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-        <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-            <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
-            <canvas width="600" height="400"></canvas>
-        </div>
-        <div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">Media Right</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        </div>
-    </div>
-
-    <hr>
-    <!-- article -->
-
-    <article class="uk-comment">
-        <header class="uk-comment-header">
-            <div class="uk-grid-medium uk-flex-middle" uk-grid>
-                <div class="uk-width-auto">
-                    <img class="uk-comment-avatar" src="https://getuikit.com/docs/images/avatar.jpg" width="80"
-                        height="80" alt="">
-                </div>
-                <div class="uk-width-expand">
-                    <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
-                    <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-                        <li><a href="#">12 days ago</a></li>
-                        <li><a href="#">Reply</a></li>
-                    </ul>
+            <div class="uk-margin">
+                <div uk-form-custom="target: > * > span:last-child">
+                    <select>
+                        <option value="1">Option 01</option>
+                        <option value="2">Option 02</option>
+                        <option value="3">Option 03</option>
+                        <option value="4">Option 04</option>
+                    </select>
+                    <span class="uk-link">
+                        <span uk-icon="icon: pencil"></span>
+                        <span></span>
+                    </span>
                 </div>
             </div>
-        </header>
-        <div class="uk-comment-body">
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        </div>
-    </article>
 
-    <hr>
-    <!-- LIST COMMENT  -->
-    <ul class="uk-comment-list">
-        <li>
-            <article class="uk-comment uk-visible-toggle" tabindex="-1">
-                <header class="uk-comment-header uk-position-relative">
-                    <div class="uk-grid-medium uk-flex-middle" uk-grid>
-                        <div class="uk-width-auto">
-                            <img class="uk-comment-avatar" src="https://getuikit.com/docs/images/avatar.jpg" width="80"
-                                height="80" alt="">
-                        </div>
-                        <div class="uk-width-expand">
-                            <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a>
-                            </h4>
-                            <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">12 days
-                                    ago</a></p>
-                        </div>
+            <div class="uk-margin">
+                <div uk-form-custom="target: > * > span:first-child">
+                    <select>
+                        <option value="">Please select...</option>
+                        <option value="1">Option 01</option>
+                        <option value="2">Option 02</option>
+                        <option value="3">Option 03</option>
+                        <option value="4">Option 04</option>
+                    </select>
+                    <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                        <span></span>
+                        <span uk-icon="icon: chevron-down"></span>
+                    </button>
+                </div>
+            </div>
+
+        </form>
+
+        <hr>
+        <!-- Modal -->
+
+        <!-- This is a button toggling the modal -->
+        <button class="uk-button uk-button-default uk-margin-small-right" type="button"
+            uk-toggle="target: #modal-example">Open</button>
+
+        <!-- This is an anchor toggling the modal -->
+        <a href="#modal-example" uk-toggle>Open</a>
+
+        <!-- This is the modal -->
+        <div id="modal-example" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body">
+                <h2 class="uk-modal-title">Headline</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+                <p class="uk-text-right">
+                    <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                    <button class="uk-button uk-button-primary" type="button">Save</button>
+                </p>
+            </div>
+        </div>
+
+
+
+        <hr>
+
+
+        <div uk-lightbox>
+            <a class="uk-button" href="video.mp4" data-poster="image.jpg"></a>
+            <a class="uk-button" href="https://www.youtube.com/watch?v=c2pz2mlSfXA"></a>
+            <a class="uk-button" href="https://vimeo.com/1084537"></a>
+            <a class="uk-button" href="https://www.google.com/maps"></a>
+        </div>
+
+        <hr>
+
+        <ul uk-accordion>
+            <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Item 1</a>
+                <div class="uk-accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.</p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#">Item 2</a>
+                <div class="uk-accordion-content">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor reprehenderit.</p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#">Item 3</a>
+                <div class="uk-accordion-content">
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                </div>
+            </li>
+        </ul>
+
+
+        <hr>
+
+        <button class="demo uk-button uk-button-default" type="button"
+            onclick="UIkit.notification({message: 'Notification message'})">Click me</button>
+
+
+        <hr>
+
+        <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+        </div>
+
+        <div class="uk-grid-medium uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+        </div>
+
+        <div class="uk-grid-large uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+        </div>
+
+        <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center uk-margin-large-top" uk-grid>
+            <div>
+                <div class="uk-background-muted uk-padding">Item</div>
+            </div>
+            <div>
+                <div class="uk-background-primary uk-padding uk-light">Item</div>
+            </div>
+            <div>
+                <div class="uk-background-secondary uk-padding uk-light">Item</div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="uk-grid-small uk-child-width-1-4@s uk-flex-center uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item 1</div>
+            </div>
+            <div class="uk-flex-last">
+                <div class="uk-card uk-card-secondary uk-card-body">Item 2</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item 3</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item 4</div>
+            </div>
+            <div class="uk-flex-first">
+                <div class="uk-card uk-card-primary uk-card-body">Item 5</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item 6</div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-text-center"
+            uk-grid="parallax: 150">
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+        </div>
+
+        <hr>
+        <h1 class="uk-heading-small">Small</h1>
+        <h1 class="uk-heading-medium">Medium</h1>
+        <h1 class="uk-heading-large">Large</h1>
+        <h1 class="uk-heading-xlarge">X-Large</h1>
+        <h1 class="uk-heading-2xlarge">2X-Large</h1>
+        <hr>
+        <h1 class="uk-heading-divider">Heading Divider</h1>
+        <hr>
+        <h1 class="uk-heading-bullet">Heading Bullet</h1>
+        <hr>
+        <h1 class="uk-heading-line"><span>Heading Line</span></h1>
+        <h1 class="uk-heading-line uk-text-center"><span>Heading Line</span></h1>
+        <h1 class="uk-heading-line uk-text-right"><span>Heading Line</span></h1>
+        <hr>
+        <div class="uk-child-width-1-2@s" uk-grid uk-height-match="target: > div > .uk-card; row: false">
+            <div class="uk-first-column">
+                <div class="uk-card uk-card-default uk-card-body">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Lorem Ipsum</div>
+            </div>
+            <div class="uk-grid-margin uk-first-column">
+                <div class="uk-card uk-card-default uk-card-body">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit.
+                </div>
+            </div>
+            <div class="uk-grid-margin">
+                <div class="uk-card uk-card-default uk-card-body">Lorem Ipsum</div>
+            </div>
+        </div>
+        <hr>
+        <span class="uk-margin-small-right" uk-icon="check"></span>
+        <a href="" uk-icon="heart"></a>
+        <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="copy"></a>
+        <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="file-edit"></a>
+        <a href="#" class="uk-icon-link" uk-icon="trash"></a>
+
+        <hr>
+        <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+        <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+        <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+        <hr>
+        <div class="uk-child-width-expand@s" uk-grid>
+
+            <div>
+                <h4>Disc</h4>
+                <ul class="uk-list uk-list-disc">
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Circle</h4>
+                <ul class="uk-list uk-list-circle">
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Square</h4>
+                <ul class="uk-list uk-list-square">
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Decimal</h4>
+                <ul class="uk-list uk-list-decimal">
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Hyphen</h4>
+                <ul class="uk-list uk-list-hyphen">
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+        <ul class="uk-subnav uk-subnav-pill" uk-switcher>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+        </ul>
+
+        <ul class="uk-switcher uk-margin">
+            <li>Hello!</li>
+            <li>Hello again!</li>
+            <li>Bazinga!</li>
+        </ul>
+        <hr>
+        <ul class="uk-switcher uk-margin">
+            <li><a href="#" uk-switcher-item="0"></a></li>
+            <li><a href="#" uk-switcher-item="1"></a></li>
+            <li><a href="#" uk-switcher-item="next"></a></li>
+            <li><a href="#" uk-switcher-item="previous"></a></li>
+        </ul>
+        <hr>
+
+        <ul class="uk-subnav uk-subnav-pill" uk-switcher="animation: uk-animation-fade">
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+        </ul>
+
+        <ul class="uk-switcher uk-margin">
+            <li>Hello!</li>
+            <li>Hello again!</li>
+            <li>Bazinga!</li>
+        </ul>
+
+        <hr>
+        <!-- //DRAG & DROP UPLOAD  WITH JS-->
+        <div class="js-upload uk-placeholder uk-text-center">
+            <span uk-icon="icon: cloud-upload"></span>
+            <span class="uk-text-middle">Attach binaries by dropping them here or</span>
+            <div uk-form-custom>
+                <input type="file" multiple>
+                <span class="uk-link">selecting one</span>
+            </div>
+        </div>
+
+        <progress id="js-progressbar" class="uk-progress" value="0" max="100" hidden></progress>
+
+        <script>
+        </script>
+
+        <hr>
+
+        <div class="uk-alert-primary" uk-alert>
+            <a class="uk-alert-close" uk-close></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+
+        <div class="uk-alert-success" uk-alert>
+            <a class="uk-alert-close" uk-close></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+
+        <div class="uk-alert-warning" uk-alert>
+            <a class="uk-alert-close" uk-close></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+
+        <div class="uk-alert-danger" uk-alert>
+            <a class="uk-alert-close" uk-close></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+
+        <hr>
+        <!-- badge -->
+        <span class="uk-badge">1</span>
+        <span class="uk-badge">100</span>
+
+        <hr>
+        <!-- card1 -->
+        <div class="uk-child-width-1-2@m" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="https://getuikit.com/docs/images/light.jpg" alt="">
                     </div>
-                    <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted"
-                            href="#">Reply</a></div>
-                </header>
-                <div class="uk-comment-body">
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-                        sit amet.</p>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Top</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
                 </div>
-            </article>
-            <ul>
-                <li>
-                    <article class="uk-comment uk-comment-primary uk-visible-toggle" tabindex="-1">
-                        <header class="uk-comment-header uk-position-relative">
-                            <div class="uk-grid-medium uk-flex-middle" uk-grid>
-                                <div class="uk-width-auto">
-                                    <img class="uk-comment-avatar" src="https://getuikit.com/docs/images/avatar.jpg"
-                                        width="80" height="80" alt="">
-                                </div>
-                                <div class="uk-width-expand">
-                                    <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
-                                            href="#">Author</a></h4>
-                                    <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">12
-                                            days ago</a></p>
-                                </div>
-                            </div>
-                            <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
-                                    class="uk-link-muted" href="#">Reply</a></div>
-                        </header>
-                        <div class="uk-comment-body">
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                                sanctus est Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </article>
-                </li>
-                <li>
-                    <article class="uk-comment uk-visible-toggle" tabindex="-1">
-                        <header class="uk-comment-header uk-position-relative">
-                            <div class="uk-grid-medium uk-flex-middle" uk-grid>
-                                <div class="uk-width-auto">
-                                    <img class="uk-comment-avatar" src="https://getuikit.com/docs/images/avatar.jpg"
-                                        width="80" height="80" alt="">
-                                </div>
-                                <div class="uk-width-expand">
-                                    <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
-                                            href="#">Author</a></h4>
-                                    <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">12
-                                            days ago</a></p>
-                                </div>
-                            </div>
-                            <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
-                                    class="uk-link-muted" href="#">Reply</a></div>
-                        </header>
-                        <div class="uk-comment-body">
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                                sanctus est Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </article>
-                </li>
-            </ul>
-        </li>
-    </ul>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Bottom</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="https://getuikit.com/docs/images/light.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <hr>
 
-    <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2022-02-18T15:11:08+00:00">
-        <div>
-            <div class="uk-countdown-number uk-countdown-days"></div>
-            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+        <hr>
+        <!-- card1 -->
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">Media Left</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
         </div>
-        <div class="uk-countdown-separator">:</div>
-        <div>
-            <div class="uk-countdown-number uk-countdown-hours"></div>
-            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">Media Right</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
         </div>
-        <div class="uk-countdown-separator">:</div>
-        <div>
-            <div class="uk-countdown-number uk-countdown-minutes"></div>
-            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+
+        <hr>
+        <!-- article -->
+
+        <article class="uk-comment">
+            <header class="uk-comment-header">
+                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-comment-avatar" src="https://getuikit.com/docs/images/avatar.jpg" width="80"
+                            height="80" alt="">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+                        <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                            <li><a href="#">12 days ago</a></li>
+                            <li><a href="#">Reply</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="uk-comment-body">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore
+                    et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                    rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+        </article>
+
+        <hr>
+        <!-- LIST COMMENT  -->
+        <ul class="uk-comment-list">
+            <li>
+                <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                    <header class="uk-comment-header uk-position-relative">
+                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-comment-avatar" src="https://getuikit.com/docs/images/avatar.jpg"
+                                    width="80" height="80" alt="">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                        href="#">Author</a>
+                                </h4>
+                                <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">12
+                                        days
+                                        ago</a></p>
+                            </div>
+                        </div>
+                        <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted"
+                                href="#">Reply</a></div>
+                    </header>
+                    <div class="uk-comment-body">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt
+                            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                            duo
+                            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+                            dolor
+                            sit amet.</p>
+                    </div>
+                </article>
+                <ul>
+                    <li>
+                        <article class="uk-comment uk-comment-primary uk-visible-toggle" tabindex="-1">
+                            <header class="uk-comment-header uk-position-relative">
+                                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-comment-avatar" src="https://getuikit.com/docs/images/avatar.jpg"
+                                            width="80" height="80" alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Author</a></h4>
+                                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
+                                                href="#">12
+                                                days ago</a></p>
+                                    </div>
+                                </div>
+                                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                        class="uk-link-muted" href="#">Reply</a></div>
+                            </header>
+                            <div class="uk-comment-body">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                    accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                    sanctus est Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                            <header class="uk-comment-header uk-position-relative">
+                                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-comment-avatar" src="https://getuikit.com/docs/images/avatar.jpg"
+                                            width="80" height="80" alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Author</a></h4>
+                                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
+                                                href="#">12
+                                                days ago</a></p>
+                                    </div>
+                                </div>
+                                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                        class="uk-link-muted" href="#">Reply</a></div>
+                            </header>
+                            <div class="uk-comment-body">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                    accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                    sanctus est Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr>
+
+        <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2022-02-18T15:11:08+00:00">
+            <div>
+                <div class="uk-countdown-number uk-countdown-days"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+            </div>
+            <div class="uk-countdown-separator">:</div>
+            <div>
+                <div class="uk-countdown-number uk-countdown-hours"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+            </div>
+            <div class="uk-countdown-separator">:</div>
+            <div>
+                <div class="uk-countdown-number uk-countdown-minutes"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+            </div>
+            <div class="uk-countdown-separator">:</div>
+            <div>
+                <div class="uk-countdown-number uk-countdown-seconds"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+            </div>
         </div>
-        <div class="uk-countdown-separator">:</div>
-        <div>
-            <div class="uk-countdown-number uk-countdown-seconds"></div>
-            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
-        </div>
+
+        <hr>
+        <hr>
     </div>
 
-    <hr>
-    <hr>
+
+    <div class="uk-container uk-container-small" style='background:yellow;'>
+        <h2>Small Container</h2>
+    </div>
+
+    <div class="uk-container uk-container-large" style='background:gray;'>
+        <h2>Large Container</h2>
+    </div>
+
+    <div class="uk-container uk-container-expand" style='background:skyblue;'>
+        <h2>Expand Container</h2>
+    </div>
 
 
     <script src="js/uikit.min.js"></script>
